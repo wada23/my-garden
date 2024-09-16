@@ -3,12 +3,11 @@ body {
 }
 
 .main {
-    background-color: rgb(180, 120, 236);
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: 3px solid red;
-    
 }
 
 .header {
@@ -19,4 +18,17 @@ body {
     justify-content: space-between;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    border: 3px solid black;
+    align-items: center;
+    color: rgb(0, 174, 255);
+}
+
+.name-spacing {
+    padding: 10px;
+
 }
