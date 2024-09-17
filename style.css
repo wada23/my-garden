@@ -42,6 +42,28 @@ header {
 
 #main {
     display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    padding: 50px;
+    background-color: rgb(165, 225, 243);
     background-image: url("majestic-mountain-peak-shrouded-clouds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.seethrough-background {
+    background-color: rgba(245, 248, 248, 0.767);
+    padding: 30px 10px;
+    word-spacing: 4px;
+}
+
+#tool-bar {
+    background-color: rgba(219, 218, 218, 0.781);
+    color: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+    font-size: 28px;
 }
