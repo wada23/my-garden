@@ -1,6 +1,6 @@
 body {
     margin: 0 auto; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 } 
 
 header {
@@ -8,10 +8,40 @@ header {
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;    
+    justify-content: space-between;   
 }
 
 .header-text {
     padding: 10px 10%;
     font-size: 1em;
+}
+
+#name-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+#name-style {
+    font-size: 3em;
+    color: rgb(65, 171, 241);
+    font-weight: 300;
+    margin: 0;
+}
+
+
+.border {
+    border: 5px solid rgb(64, 105, 64);
+    background-color: rgb(205, 166, 241);
+}
+
+.padding-ten {
+    padding: 10px;
+}
+
+#main {
+    display: flex;
+    background-image: url("majestic-mountain-peak-shrouded-clouds.jpg");
+
 }
